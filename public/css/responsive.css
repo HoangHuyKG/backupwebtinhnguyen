@@ -1,0 +1,504 @@
+@media only screen and (max-width:739px) {
+  .col-30 {
+    width: 320px;
+    padding: 30px;
+  }
+
+  .sidebarmenumobilediv {
+    display: flex;
+  }
+
+  .login_logo_name {
+    font-size: 18px;
+  }
+
+  .login_title {
+    font-size: 27px;
+  }
+
+  .sidebarleft {
+    display: none;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .main_content {
+    left: 0;
+  }
+
+  .sidebarmenumobile {
+    font-size: 24px;
+    visibility: visible;
+  }
+
+  .dashboard_title {
+    width: initial;
+    margin-right: 0;
+    font-size: 28px;
+  }
+
+  .sidebarmenumobile:hover {
+    cursor: pointer;
+  }
+
+  .dashboard_search_input {
+    width: initial;
+  }
+
+  .mobilebackmenuicon {
+    visibility: visible;
+    font-size: 24px;
+    float: right;
+    color: #ffffff;
+  }
+
+  .mobilebackmenuicon:hover {
+    cursor: pointer;
+  }
+
+  .mobilebackmenu {
+    margin: 15px;
+    display: flex;
+    justify-content: right;
+    float: right;
+  }
+
+  .main_content_top {
+    justify-content: initial;
+  }
+
+
+  .dashboard_title {
+    font-size: 24px;
+  }
+
+  .dashboard_title_div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main_content_footer_box {
+    width: 100%;
+    margin: 10px 0 !important;
+  }
+
+  .main_content_footer {
+    flex-direction: column;
+  }
+
+  .leaderboard_item_activity {
+    display: none;
+  }
+
+  .leaderboard_item_position {
+    display: none;
+  }
+
+  .leaderboard_item_group {
+    display: none;
+  }
+
+  .leaderboard_item {
+    padding: 10px;
+  }
+
+  .main_content {
+    padding: 15px 30px;
+  }
+
+  .form_add {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .form_add_left {
+    width: 100%;
+  }
+
+  .form_add_right {
+    width: 100%;
+  }
+
+  .button_confirm {
+    margin: 0;
+  }
+
+  .div_content_input {
+    padding: 0;
+  }
+
+  .form_add {
+    margin-top: 30px;
+  }
+
+  @keyframes showNav {
+    from {
+      left: -100%;
+    }
+
+    to {
+      left: 0;
+    }
+  }
+
+  @-webkit-keyframes showNav {
+    from {
+      left: -100%;
+    }
+
+    to {
+      left: 0;
+    }
+  }
+
+  @-moz-keyframes showNav {
+    from {
+      left: -100%;
+    }
+
+    to {
+      left: 0;
+    }
+  }
+
+  @-o-keyframes showNav {
+    from {
+      left: -100%;
+    }
+
+    to {
+      left: 0;
+    }
+  }
+
+  .showNav {
+    -webkit-animation: showNav .5s ease forwards;
+    -moz-animation: showNav 1s ease forwards;
+    -o-animation: showNav 1s ease forwards;
+    animation: showNav .5s ease forwards;
+  }
+
+  @keyframes hideNav {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: -100%;
+    }
+  }
+
+  @-webkit-keyframes hideNav {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: -100%;
+    }
+  }
+
+  @-moz-keyframes hideNav {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: -100%;
+    }
+  }
+
+  @-o-keyframes hideNav {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: -100%;
+    }
+  }
+
+  .hideNav {
+    -webkit-animation: hideNav 1s ease forwards;
+    -moz-animation: hideNav 1s ease forwards;
+    -o-animation: hideNav 1s ease forwards;
+    animation: hideNav 1s ease forwards;
+  }
+
+  .dashboard_search {
+    display: none;
+  }
+
+  .info_admin {
+    width: initial;
+    padding: 0;
+  }
+  .info_admin_name {
+    display: none;
+  }
+  .icon_down {
+    display: none !important;
+  }
+  .submenu_infoadmin {
+    right: 0;
+    width: 120px;
+  }
+  .displaynone {
+    display: none;
+  }
+
+  .tableoverflow {
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
+  .table_tr_label {
+    display: none;
+  }
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    display: block;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 16px;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+  }
+  #none_before::before {
+    content: none;
+  }
+  #none_before {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .infomation_member_divdetails {
+    display: initial;
+  }
+  .infomation_member_divdetails_left {
+    padding: 0;
+    width: 100%;
+  }
+  .infomation_member_divdetails_right {
+    padding: 0;
+    width: 100%;
+  }
+  .infomation_member {
+    padding: 0;
+  }
+  .infomation_activity_divdetails {
+    padding: 0;
+  }
+  .info_activity_title {
+    font-size: 30px;
+  }
+  .infomation_activity_div {
+    display: initial;
+  }
+  .infomation_activity_div_left {
+    width: 100%;
+  }
+  .infomation_activity_box {
+    font-size: 16px;
+  }
+  .infomation_activity_content {
+    font-size: 16px;
+  }
+  .div_button {
+    display: block;
+  }
+  .button_red {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .button_green {
+    width: 100%;
+    margin-bottom: 20px;
+
+  }
+  .button_yellow {
+    width: 100%;
+    margin-bottom: 20px;
+
+  }
+
+}
+
+@media only screen and (min-width:739px) and (max-width:1024px) {
+  .sidebarleft {
+    display: none;
+    z-index: 100000;
+    flex-direction: column;
+  }
+
+  .main_content {
+    left: 0;
+  }
+
+  .sidebarmenumobile {
+    font-size: 24px;
+    visibility: visible;
+  }
+
+  .dashboard_title {
+    margin-right: 0;
+    font-size: 28px;
+  }
+
+  .sidebarmenumobile:hover {
+    cursor: pointer;
+  }
+
+  .dashboard_search_input {
+    width: initial;
+  }
+
+  .mobilebackmenuicon {
+    visibility: visible;
+    font-size: 24px;
+    float: right;
+    color: #ffffff;
+  }
+
+  .mobilebackmenuicon:hover {
+    cursor: pointer;
+  }
+
+  .mobilebackmenu {
+    margin: 15px;
+    display: block;
+  }
+
+  @keyframes showNav {
+    from {
+      left: -100%;
+    }
+
+    to {
+      left: 0;
+    }
+  }
+
+  @-webkit-keyframes showNav {
+    from {
+      left: -100%;
+    }
+
+    to {
+      left: 0;
+    }
+  }
+
+  @-moz-keyframes showNav {
+    from {
+      left: -100%;
+    }
+
+    to {
+      left: 0;
+    }
+  }
+
+  @-o-keyframes showNav {
+    from {
+      left: -100%;
+    }
+
+    to {
+      left: 0;
+    }
+  }
+
+  .showNav {
+    -webkit-animation: showNav .5s ease forwards;
+    -moz-animation: showNav 1s ease forwards;
+    -o-animation: showNav 1s ease forwards;
+    animation: showNav .5s ease forwards;
+  }
+
+  @keyframes hideNav {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: -100%;
+    }
+  }
+
+  @-webkit-keyframes hideNav {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: -100%;
+    }
+  }
+
+  @-moz-keyframes hideNav {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: -100%;
+    }
+  }
+
+  @-o-keyframes hideNav {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: -100%;
+    }
+  }
+
+  .hideNav {
+    -webkit-animation: hideNav 1s ease forwards;
+    -moz-animation: hideNav 1s ease forwards;
+    -o-animation: hideNav 1s ease forwards;
+    animation: hideNav 1s ease forwards;
+  }
+
+  .sidebarmenumobilediv {
+    display: flex;
+  }
+}
